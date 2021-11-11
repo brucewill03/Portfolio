@@ -37,16 +37,19 @@ body{
     float: right;
 }
 
-.float-right {
+.image1 {
     float: right;
-    width:  1000px;
-    height: 200px
+    height: 200px;
+    padding-top: 100px;
+    padding-right: 500px;
     
 }
 
     
 h1{ 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 p{
@@ -56,7 +59,40 @@ p{
     font-size: large;
 }
 
-.portfolio-padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.flex-container {
+    
+    height:auto;
+    display:flex;
+    
 }
+
+.hover-element {
+    opacity: 100%;
+}
+
+.hover-element:hover {
+    opacity: 60%;
+}
+
+#social-media {
+    position: fixed;
+    bottom: 0px;
+  }
+  
+  #social-media ul {
+    list-style-type: none;
+    margin:0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    
+  }
+  
+  #social-media ul li {
+    display:inline-block;
+  }
+  
+  .rounded-button {
+    border-radius: 15px;
+    background-color: white;
+  }
