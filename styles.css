@@ -16,8 +16,9 @@ body{
  
 .image1{
     width: 1000px;
-    height:100px
-    border: solid 2px black;
+    height:300px;
+    float: center;
+    padding-bottom: 40px;
 
 }
 h1{ 
@@ -28,4 +29,5 @@ p{
     font-family: fantasy;
     font-weight: bold;
     text-align: center;
+    font-size: large;
 }
