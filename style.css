@@ -1,6 +1,9 @@
 <style>
-    .banner {
-    /* Image Used for Background*/
-    background-image:
-    url(https://github.com/brucewill03/Portfolio/raw/main/Images/ComputerBackground.png);
-</style>
+.background {
+    background-image: url(https://github.com/brucewill03/Portfolio/raw/main/Images/ComputerBackground.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+}
+ 
