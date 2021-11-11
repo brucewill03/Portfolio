@@ -1,9 +1,31 @@
-<style>
+html{
+        background-color: black
+}
+
+body{ 
+    background-color:grey
+}
 .background {
     background-image: url(https://github.com/brucewill03/Portfolio/raw/main/Images/ComputerBackground.png);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 2000px;
+    height: 30px; 
+    
     border: solid 2px black;
 }
- </style>
+ 
+.image1{
+    width: 1000px;
+    height:100px
+    border: solid 2px black;
+
+}
+h1{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+p{
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+}
