@@ -4,23 +4,47 @@ html{
 
 body{ 
     background-color:grey
-}
-.background {
-    background-image: url(https://github.com/brucewill03/Portfolio/raw/main/Images/ComputerBackground.png);
-    background-size: cover;
-    width: 2000px;
-    height: 30px; 
-    
-    border: solid 2px black;
-}
- 
-.image1{
-    width: 1000px;
-    height:300px;
-    float: center;
-    padding-bottom: 40px;
 
 }
+#TopMenu li {
+    float:left;
+    border-left: 3px solid black;
+}
+
+#TopMenu li a:hover{
+    background-color: none;
+}
+
+#TopMenuText {
+    padding: 14px 6px;
+    font-size: 16px;
+}
+
+
+ 
+#TopMenu li a{
+    display:block;
+    color: gold;
+    text-align: right;
+    padding: 30px 50px;
+    text-decoration: underline overline black 3px ;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: fantasy;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right {
+    float: right;
+    width:  1000px;
+    height: 200px
+    
+}
+
+    
 h1{ 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -30,4 +54,9 @@ p{
     font-weight: bold;
     text-align: center;
     font-size: large;
+}
+
+.portfolio-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
