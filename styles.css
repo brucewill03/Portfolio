@@ -6,6 +6,14 @@ body{
     background-color:grey
 
 }
+
+nav{
+    position:fixed;
+    top:0px;
+    background-color:white;
+    width:100%;
+    z-index:100;
+}
 #TopMenu li {
     float:left;
     border-left: 3px solid black;
@@ -20,10 +28,16 @@ body{
     font-size: 16px;
 }
 
+.main-content{
+    padding-top: 70px;
+    margin:0 30px 0 30px;
+
+}
+
 
  
 #TopMenu li a{
-    display:block;
+    display:fixed;
     color: gold;
     text-align: right;
     padding: 30px 50px;
@@ -61,17 +75,25 @@ p{
 
 .flex-container {
     
-    height:auto;
+
     display:flex;
+    flex-direction:column;
     
 }
 
 .hover-element {
-    opacity: 100%;
+    opacity: 70%;
+    transition: transform 0.2s;
+    text-align:center;
+    padding: 10px 0 10px 0;
 }
 
 .hover-element:hover {
-    opacity: 60%;
+    opacity: 100%;
+    transform: scale(1.2);
+    padding: 40px 0 40px 0;
+    
+
 }
 
 #social-media {
