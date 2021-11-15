@@ -11,4 +11,4 @@ This portfolio provides information about my personal life and goals. This portf
 # Website 
 https://brucewill03.github.io/Portfolio/
 
-![ScreenShot1](https://github.com/brucewill03/portfolio/raw/main/Images/Screenshot5.jpg)
+![ScreenShot1](https://github.com/brucewill03/portfolio/raw/main/Images/Screenshot5.png)
